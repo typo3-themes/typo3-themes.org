@@ -1,0 +1,1761 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600,700,800,900|Pacifico);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* line 10, ../sass/_type.sass */
+[class*="entypo-"]:before {
+  font-family: "entypo", sans-serif;
+}
+
+/* line 13, ../sass/_type.sass */
+i {
+  font-style: normal;
+}
+
+/* line 16, ../sass/_type.sass */
+body,
+button,
+input,
+select,
+textarea {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: white;
+}
+
+/* line 25, ../sass/_type.sass */
+p {
+  margin-bottom: 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 24px;
+  line-height: 2.4rem;
+}
+@media (min-width: 768px) {
+  /* line 25, ../sass/_type.sass */
+  p {
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 28px;
+    line-height: 2.8rem;
+  }
+}
+@media (min-width: 992px) {
+  /* line 25, ../sass/_type.sass */
+  p {
+    font-size: 22px;
+    font-size: 2.2rem;
+    line-height: 32px;
+    line-height: 3.2rem;
+  }
+}
+
+/* line 38, ../sass/_type.sass */
+a {
+  text-decoration: none;
+  color: white;
+  border-bottom: solid 1px #fafafa;
+}
+/* line 43, ../sass/_type.sass */
+a:hover {
+  color: #4761e2;
+  text-decoration: none;
+  -webkit-transition: all, 300ms;
+  -moz-transition: all, 300ms;
+  -o-transition: all, 300ms;
+  transition: all, 300ms;
+}
+
+/* line 48, ../sass/_type.sass */
+h1,
+h2 {
+  font-size: 32px;
+  font-size: 3.2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+/* line 54, ../sass/_type.sass */
+h3 {
+  font-size: 26px;
+  font-size: 2.6rem;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 58, ../sass/_type.sass */
+.slide-titles {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+}
+
+/* line 62, ../sass/_type.sass */
+b {
+  font-weight: 700;
+}
+
+/* line 65, ../sass/_type.sass */
+ul,
+ol {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+/* line 71, ../sass/_type.sass */
+ul li,
+ol li {
+  margin: 5px 0;
+}
+
+/* line 1, ../sass/_animate.scss */
+.animated {
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+/* line 1, ../sass/_animate.scss */
+.animated.hinge {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fadeIn {
+  /* line 2, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 2, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  /* line 6, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 7, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  /* line 11, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 12, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  /* line 16, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 17, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-0 {
+  animation-delay: 0ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 0ms;
+  /* Firefox */
+  -webkit-animation-delay: 0ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-1 {
+  animation-delay: 500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 500ms;
+  /* Firefox */
+  -webkit-animation-delay: 500ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-2 {
+  animation-delay: 1000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 1000ms;
+  /* Firefox */
+  -webkit-animation-delay: 1000ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-3 {
+  animation-delay: 1500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 1500ms;
+  /* Firefox */
+  -webkit-animation-delay: 1500ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-4 {
+  animation-delay: 2000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 2000ms;
+  /* Firefox */
+  -webkit-animation-delay: 2000ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-5 {
+  animation-delay: 2500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 2500ms;
+  /* Firefox */
+  -webkit-animation-delay: 2500ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-6 {
+  animation-delay: 3000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 3000ms;
+  /* Firefox */
+  -webkit-animation-delay: 3000ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-7 {
+  animation-delay: 3500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 3500ms;
+  /* Firefox */
+  -webkit-animation-delay: 3500ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-8 {
+  animation-delay: 4000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 4000ms;
+  /* Firefox */
+  -webkit-animation-delay: 4000ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-9 {
+  animation-delay: 4500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 4500ms;
+  /* Firefox */
+  -webkit-animation-delay: 4500ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-10 {
+  animation-delay: 5000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 5000ms;
+  /* Firefox */
+  -webkit-animation-delay: 5000ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-11 {
+  animation-delay: 5500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 5500ms;
+  /* Firefox */
+  -webkit-animation-delay: 5500ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-12 {
+  animation-delay: 6000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 6000ms;
+  /* Firefox */
+  -webkit-animation-delay: 6000ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-13 {
+  animation-delay: 6500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 6500ms;
+  /* Firefox */
+  -webkit-animation-delay: 6500ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-14 {
+  animation-delay: 7000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 7000ms;
+  /* Firefox */
+  -webkit-animation-delay: 7000ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-15 {
+  animation-delay: 7500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 7500ms;
+  /* Firefox */
+  -webkit-animation-delay: 7500ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-16 {
+  animation-delay: 8000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 8000ms;
+  /* Firefox */
+  -webkit-animation-delay: 8000ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-17 {
+  animation-delay: 8500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 8500ms;
+  /* Firefox */
+  -webkit-animation-delay: 8500ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-18 {
+  animation-delay: 9000ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 9000ms;
+  /* Firefox */
+  -webkit-animation-delay: 9000ms;
+}
+
+/* line 25, ../sass/_animate.scss */
+.delay-19 {
+  animation-delay: 9500ms;
+  /* W3C and Opera */
+  -moz-animation-delay: 9500ms;
+  /* Firefox */
+  -webkit-animation-delay: 9500ms;
+}
+
+/* line 33, ../sass/_animate.scss */
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+  -o-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeInUp {
+  /* line 40, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+
+  /* line 45, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeInUp {
+  /* line 52, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(20px);
+  }
+
+  /* line 57, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeInUp {
+  /* line 64, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -o-transform: translateY(20px);
+  }
+
+  /* line 69, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  /* line 76, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  /* line 81, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* line 87, ../sass/_animate.scss */
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  -o-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@-webkit-keyframes fadeInDown {
+  /* line 94, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+  }
+
+  /* line 99, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeInDown {
+  /* line 106, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-20px);
+  }
+
+  /* line 111, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeInDown {
+  /* line 118, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -o-transform: translateY(-20px);
+  }
+
+  /* line 123, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  /* line 130, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  /* line 135, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* line 141, ../sass/_animate.scss */
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  -o-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInLeft {
+  /* line 148, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+  }
+
+  /* line 153, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes fadeInLeft {
+  /* line 160, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-20px);
+  }
+
+  /* line 165, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+@-o-keyframes fadeInLeft {
+  /* line 172, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -o-transform: translateX(-20px);
+  }
+
+  /* line 177, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  /* line 184, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  /* line 189, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* line 195, ../sass/_animate.scss */
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  -moz-animation-name: fadeInLeft;
+  -o-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@-webkit-keyframes fadeInRight {
+  /* line 202, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+  }
+
+  /* line 207, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes fadeInRight {
+  /* line 214, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(20px);
+  }
+
+  /* line 219, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+@-o-keyframes fadeInRight {
+  /* line 226, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -o-transform: translateX(20px);
+  }
+
+  /* line 231, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  /* line 238, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  /* line 243, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* line 249, ../sass/_animate.scss */
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  -moz-animation-name: fadeInRight;
+  -o-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+@-webkit-keyframes fadeInDownBig {
+  /* line 256, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+  }
+
+  /* line 261, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeInDownBig {
+  /* line 268, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-2000px);
+  }
+
+  /* line 273, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeInDownBig {
+  /* line 280, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    -o-transform: translateY(-2000px);
+  }
+
+  /* line 285, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDownBig {
+  /* line 292, ../sass/_animate.scss */
+  0% {
+    opacity: 0;
+    transform: translateY(-2000px);
+  }
+
+  /* line 297, ../sass/_animate.scss */
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* line 303, ../sass/_animate.scss */
+.fadeInDownBig {
+  -webkit-animation-name: fadeInDownBig;
+  -moz-animation-name: fadeInDownBig;
+  -o-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig;
+}
+
+@-webkit-keyframes fadeOut {
+  /* line 310, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 311, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  /* line 315, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 316, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  /* line 320, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 321, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  /* line 325, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 326, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+  }
+}
+
+/* line 329, ../sass/_animate.scss */
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  -moz-animation-name: fadeOut;
+  -o-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+@-webkit-keyframes fadeOutUp {
+  /* line 336, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 341, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+  }
+}
+
+@-moz-keyframes fadeOutUp {
+  /* line 347, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+
+  /* line 352, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    -moz-transform: translateY(-20px);
+  }
+}
+
+@-o-keyframes fadeOutUp {
+  /* line 358, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+
+  /* line 363, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    -o-transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeOutUp {
+  /* line 369, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* line 374, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+/* line 380, ../sass/_animate.scss */
+.fadeOutUp {
+  -webkit-animation-name: fadeOutUp;
+  -moz-animation-name: fadeOutUp;
+  -o-animation-name: fadeOutUp;
+  animation-name: fadeOutUp;
+}
+
+@-webkit-keyframes fadeOutDown {
+  /* line 387, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+
+  /* line 392, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+}
+
+@-moz-keyframes fadeOutDown {
+  /* line 399, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+
+  /* line 404, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    -moz-transform: translateY(20px);
+  }
+}
+
+@-o-keyframes fadeOutDown {
+  /* line 411, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+
+  /* line 416, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    -o-transform: translateY(20px);
+  }
+}
+
+@keyframes fadeOutDown {
+  /* line 423, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* line 428, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+/* line 434, ../sass/_animate.scss */
+.fadeOutDown {
+  -webkit-animation-name: fadeOutDown;
+  -moz-animation-name: fadeOutDown;
+  -o-animation-name: fadeOutDown;
+  animation-name: fadeOutDown;
+}
+
+@-webkit-keyframes fadeOutLeft {
+  /* line 441, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 446, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+  }
+}
+
+@-moz-keyframes fadeOutLeft {
+  /* line 453, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+
+  /* line 458, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    -moz-transform: translateX(-20px);
+  }
+}
+
+@-o-keyframes fadeOutLeft {
+  /* line 465, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+
+  /* line 470, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    -o-transform: translateX(-20px);
+  }
+}
+
+@keyframes fadeOutLeft {
+  /* line 477, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* line 482, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+}
+
+/* line 488, ../sass/_animate.scss */
+.fadeOutLeft {
+  -webkit-animation-name: fadeOutLeft;
+  -moz-animation-name: fadeOutLeft;
+  -o-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
+}
+
+@-webkit-keyframes fadeOutRight {
+  /* line 495, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 500, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+  }
+}
+
+@-moz-keyframes fadeOutRight {
+  /* line 507, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+
+  /* line 512, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    -moz-transform: translateX(20px);
+  }
+}
+
+@-o-keyframes fadeOutRight {
+  /* line 519, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+
+  /* line 524, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    -o-transform: translateX(20px);
+  }
+}
+
+@keyframes fadeOutRight {
+  /* line 531, ../sass/_animate.scss */
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* line 536, ../sass/_animate.scss */
+  100% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+}
+
+/* line 542, ../sass/_animate.scss */
+.fadeOutRight {
+  -webkit-animation-name: fadeOutRight;
+  -moz-animation-name: fadeOutRight;
+  -o-animation-name: fadeOutRight;
+  animation-name: fadeOutRight;
+}
+
+/* line 1, ../sass/partials/_home.sass */
+h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 28px;
+  font-size: 2.8rem;
+}
+@media (min-width: 768px) {
+  /* line 1, ../sass/partials/_home.sass */
+  h1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 48px;
+    font-size: 4.8rem;
+  }
+}
+@media (min-width: 992px) {
+  /* line 1, ../sass/partials/_home.sass */
+  h1 {
+    margin-top: 200px;
+    margin-bottom: 80px;
+    font-size: 72px;
+    font-size: 7.2rem;
+  }
+}
+
+/* line 23, ../sass/partials/_home.sass */
+p {
+  margin-bottom: 60px;
+  padding: 0 15px;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 20px;
+  line-height: 2rem;
+}
+@media (min-width: 768px) {
+  /* line 23, ../sass/partials/_home.sass */
+  p {
+    padding: 0;
+    margin-bottom: 50px;
+    font-size: 17px;
+    font-size: 1.7rem;
+    line-height: 24px;
+    line-height: 2.4rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 23, ../sass/partials/_home.sass */
+  p {
+    margin-bottom: 100px;
+  }
+}
+
+/* line 48, ../sass/partials/_home.sass */
+p span {
+  color: #555555;
+}
+
+/* line 51, ../sass/partials/_home.sass */
+.take-a-look {
+  cursor: pointer;
+  display: block;
+  width: 160px;
+  margin: 0 auto;
+  padding: 8px 16px;
+  border: solid 2px white;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900 !important;
+  letter-spacing: 0.1em;
+  -webkit-transition: all, 400ms;
+  -moz-transition: all, 400ms;
+  -o-transition: all, 400ms;
+  transition: all, 400ms;
+}
+/* line 66, ../sass/partials/_home.sass */
+.take-a-look:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+/* line 69, ../sass/partials/_home.sass */
+.take-a-look i {
+  margin-right: 5px;
+}
+
+/* line 72, ../sass/partials/_home.sass */
+.home-phone {
+  margin-top: 100px;
+}
+
+/* line 75, ../sass/partials/_home.sass */
+.home-copy {
+  -webkit-transition: position, 700ms;
+  -moz-transition: position, 700ms;
+  -o-transition: position, 700ms;
+  transition: position, 700ms;
+}
+
+/* line 78, ../sass/partials/_home.sass */
+#big-video-wrap {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+/* line 87, ../sass/partials/_home.sass */
+#big-video-wrap.hide-video {
+  opacity: 0 !important;
+}
+
+/* line 90, ../sass/partials/_home.sass */
+#big-video-vid,
+#big-video-image {
+  position: absolute;
+}
+
+/* line 1, ../sass/partials/_slides.sass */
+.home {
+  background-color: #e74c3c;
+  background-color: rgba(231, 76, 60, 0.7);
+}
+/* line 5, ../sass/partials/_slides.sass */
+.home.full-color {
+  background-color: #e74c3c;
+}
+
+/* line 8, ../sass/partials/_slides.sass */
+.slide-1 {
+  background-color: rgba(26, 188, 156, 0.7);
+  -webkit-transition: all, 400ms;
+  -moz-transition: all, 400ms;
+  -o-transition: all, 400ms;
+  transition: all, 400ms;
+}
+/* line 12, ../sass/partials/_slides.sass */
+.slide-1.fade-background {
+  background-color: #e74c3c;
+}
+/* line 15, ../sass/partials/_slides.sass */
+.slide-1.full-color {
+  background-color: #1abc9c;
+}
+
+/* line 18, ../sass/partials/_slides.sass */
+.slide-2 {
+  background-color: rgba(52, 73, 94, 0.7);
+  -webkit-transition: all, 400ms;
+  -moz-transition: all, 400ms;
+  -o-transition: all, 400ms;
+  transition: all, 400ms;
+}
+/* line 22, ../sass/partials/_slides.sass */
+.slide-2.fade-background {
+  background-color: #1abc9c;
+}
+@media (min-width: 768px) {
+  /* line 25, ../sass/partials/_slides.sass */
+  .slide-2 .iphone-2 {
+    margin-top: 150px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 25, ../sass/partials/_slides.sass */
+  .slide-2 .iphone-2 {
+    margin-top: 60px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 34, ../sass/partials/_slides.sass */
+  .slide-2 .copy {
+    margin-top: 120px !important;
+  }
+}
+/* line 37, ../sass/partials/_slides.sass */
+.slide-2.full-color {
+  background-color: #34495e;
+}
+
+/* line 40, ../sass/partials/_slides.sass */
+.slide-3 {
+  background-color: rgba(241, 196, 15, 0.7);
+  -webkit-transition: all, 400ms;
+  -moz-transition: all, 400ms;
+  -o-transition: all, 400ms;
+  transition: all, 400ms;
+}
+/* line 44, ../sass/partials/_slides.sass */
+.slide-3.fade-background {
+  background-color: #34495e;
+}
+@media (min-width: 768px) {
+  /* line 47, ../sass/partials/_slides.sass */
+  .slide-3 .iphone-3 {
+    margin-top: 80px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 52, ../sass/partials/_slides.sass */
+  .slide-3 .copy {
+    margin-top: 120px !important;
+  }
+}
+/* line 55, ../sass/partials/_slides.sass */
+.slide-3.full-color {
+  background-color: #f1c40f;
+}
+
+/* line 58, ../sass/partials/_slides.sass */
+.contact {
+  background-color: rgba(230, 126, 34, 0.7);
+  -webkit-transition: all, 400ms;
+  -moz-transition: all, 400ms;
+  -o-transition: all, 400ms;
+  transition: all, 400ms;
+}
+/* line 62, ../sass/partials/_slides.sass */
+.contact.full-color {
+  background-color: #e67e22;
+}
+
+/* line 68, ../sass/partials/_slides.sass */
+.slide p {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 18px;
+  line-height: 1.8rem;
+  text-transform: normal;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  /* line 68, ../sass/partials/_slides.sass */
+  .slide p {
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 22px;
+    line-height: 2.2rem;
+  }
+}
+/* line 80, ../sass/partials/_slides.sass */
+.slide .copy {
+  margin-top: 15px;
+}
+@media (min-width: 768px) {
+  /* line 80, ../sass/partials/_slides.sass */
+  .slide .copy {
+    margin-top: 60px;
+  }
+}
+/* line 86, ../sass/partials/_slides.sass */
+.slide .copy p {
+  margin: 15px 0 10px 0;
+  text-transform: none;
+  letter-spacing: 0.04em;
+}
+@media (min-width: 768px) {
+  /* line 86, ../sass/partials/_slides.sass */
+  .slide .copy p {
+    margin: 30px 0;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 86, ../sass/partials/_slides.sass */
+  .slide .copy p {
+    margin: 55px 0;
+  }
+}
+
+/* line 97, ../sass/partials/_slides.sass */
+.slide-titles {
+  padding-left: 15px;
+}
+@media (min-width: 768px) {
+  /* line 97, ../sass/partials/_slides.sass */
+  .slide-titles {
+    padding-left: 0;
+  }
+}
+
+/* line 103, ../sass/partials/_slides.sass */
+.slide-2-title,
+.slide-3-title {
+  margin-top: 50px;
+  font-size: 22px;
+  font-size: 2.2rem;
+}
+@media (min-width: 768px) {
+  /* line 103, ../sass/partials/_slides.sass */
+  .slide-2-title,
+  .slide-3-title {
+    margin-top: 0;
+    font-size: 32px;
+    font-size: 3.2rem;
+  }
+}
+
+/* line 112, ../sass/partials/_slides.sass */
+.iphone-container {
+  margin-top: 15px;
+  overflow: hidden;
+  max-height: 200px;
+}
+@media (min-width: 768px) {
+  /* line 112, ../sass/partials/_slides.sass */
+  .iphone-container {
+    max-height: 1000px;
+  }
+}
+
+/* line 120, ../sass/partials/_slides.sass */
+.iphone-1,
+.iphone-2,
+.iphone-3 {
+  max-width: 100%;
+}
+
+/* line 125, ../sass/partials/_slides.sass */
+.scroll-down {
+  font-size: 32px;
+  font-size: 3.2rem;
+  display: block;
+}
+
+/* line 130, ../sass/partials/_slides.sass */
+.slide-3 h2,
+.slide-3 p,
+.slide-3 .scroll-down {
+  color: #333333;
+}
+
+/* line 138, ../sass/partials/_slides.sass */
+.slide-2 .iphone-container,
+.slide-3 .iphone-container {
+  max-height: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+@media (min-width: 768px) {
+  /* line 138, ../sass/partials/_slides.sass */
+  .slide-2 .iphone-container,
+  .slide-3 .iphone-container {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    max-height: 1000px;
+  }
+}
+
+/* line 3, ../sass/partials/_contact.sass */
+.contact h2 {
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-size: 26px;
+  font-size: 2.6rem;
+}
+@media (min-width: 768px) {
+  /* line 3, ../sass/partials/_contact.sass */
+  .contact h2 {
+    margin-top: 100px;
+    font-size: 38px;
+    font-size: 3.8rem;
+  }
+}
+/* line 14, ../sass/partials/_contact.sass */
+.contact p {
+  padding: 0 20%;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-transform: none;
+}
+@media (min-width: 768px) {
+  /* line 14, ../sass/partials/_contact.sass */
+  .contact p {
+    padding: 0;
+  }
+}
+/* line 24, ../sass/partials/_contact.sass */
+.contact .newsletter {
+  width: 250px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  /* line 24, ../sass/partials/_contact.sass */
+  .contact .newsletter {
+    width: 370px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 24, ../sass/partials/_contact.sass */
+  .contact .newsletter {
+    width: 420px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 24, ../sass/partials/_contact.sass */
+  .contact .newsletter {
+    margin-top: 100px;
+  }
+}
+/* line 36, ../sass/partials/_contact.sass */
+.contact input {
+  padding: 20px;
+  border: 0px solid transparent;
+  margin-left: 25px;
+  width: 175px;
+  height: 45px;
+  float: left;
+  background-color: #ecf0f1;
+  color: #333333;
+  -webkit-box-shadow: 0 0 0 black;
+  -moz-box-shadow: 0 0 0 black;
+  box-shadow: 0 0 0 black;
+  font-size: 18px;
+  font-size: 1.8rem;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+@media (min-width: 768px) {
+  /* line 36, ../sass/partials/_contact.sass */
+  .contact input {
+    margin-left: 0;
+    font-size: 32px;
+    font-size: 3.2rem;
+    height: 70px;
+    width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 36, ../sass/partials/_contact.sass */
+  .contact input {
+    width: 350px;
+  }
+}
+/* line 60, ../sass/partials/_contact.sass */
+.contact input[type=text]:focus {
+  border: 0px solid transparent;
+  -webkit-box-shadow: 0 0 0 black;
+  -moz-box-shadow: 0 0 0 black;
+  box-shadow: 0 0 0 black;
+  outline: none;
+}
+/* line 65, ../sass/partials/_contact.sass */
+.contact .btn-signup {
+  float: left;
+  height: 45px;
+  width: 45px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background-color: #34495e;
+  -webkit-transition: all, 300ms;
+  -moz-transition: all, 300ms;
+  -o-transition: all, 300ms;
+  transition: all, 300ms;
+}
+@media (min-width: 768px) {
+  /* line 65, ../sass/partials/_contact.sass */
+  .contact .btn-signup {
+    width: 70px;
+    height: 70px;
+  }
+}
+/* line 77, ../sass/partials/_contact.sass */
+.contact .btn-signup:hover {
+  color: white;
+  background-color: #2c3e50;
+}
+/* line 81, ../sass/partials/_contact.sass */
+.contact .entypo-mail {
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 32px;
+  line-height: 3.2rem;
+}
+@media (min-width: 768px) {
+  /* line 81, ../sass/partials/_contact.sass */
+  .contact .entypo-mail {
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 52px;
+    line-height: 5.2rem;
+  }
+}
+/* line 89, ../sass/partials/_contact.sass */
+.contact .social {
+  width: 140px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  /* line 89, ../sass/partials/_contact.sass */
+  .contact .social {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 89, ../sass/partials/_contact.sass */
+  .contact .social {
+    margin-top: 150px;
+  }
+}
+/* line 100, ../sass/partials/_contact.sass */
+.contact .social .facebook,
+.contact .social .twitter {
+  border: solid 0px transparent;
+  text-align: center;
+  display: block;
+  float: left;
+  width: 70px;
+  height: 70px;
+  background-color: #34495e;
+  font-size: 30px;
+  font-size: 3rem;
+  line-height: 72px;
+  line-height: 7.2rem;
+  -webkit-transition: all, 300ms;
+  -moz-transition: all, 300ms;
+  -o-transition: all, 300ms;
+  transition: all, 300ms;
+}
+/* line 113, ../sass/partials/_contact.sass */
+.contact .social .facebook:hover,
+.contact .social .twitter:hover {
+  background-color: #2c3e50;
+  color: white;
+}
+
+/* line 1, ../sass/partials/_nav.sass */
+.onepage-pagination li a {
+  margin-bottom: 10px;
+  border: solid 2px white;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-transition: all, 400ms;
+  -moz-transition: all, 400ms;
+  -o-transition: all, 400ms;
+  transition: all, 400ms;
+}
+/* line 7, ../sass/partials/_nav.sass */
+.onepage-pagination li a:hover {
+  color: white;
+  opacity: 0.5;
+}
+/* line 11, ../sass/partials/_nav.sass */
+.onepage-pagination li a.active {
+  background-color: rgba(255, 255, 255, 0.25);
+  border: solid 2px white;
+  text-decoration: none;
+}
+
+/* line 1, ../sass/partials/_settings.sass */
+.settings {
+  position: absolute;
+  top: 50px;
+  left: -200px;
+  width: 200px;
+  height: 280px;
+  background-color: rgba(50, 50, 50, 0.93);
+  -webkit-transition: all, 600ms;
+  -moz-transition: all, 600ms;
+  -o-transition: all, 600ms;
+  transition: all, 600ms;
+}
+@media (min-width: 768px) {
+  /* line 1, ../sass/partials/_settings.sass */
+  .settings {
+    background-color: rgba(50, 50, 50, 0.28);
+    top: 200px;
+    height: 360px;
+  }
+}
+/* line 17, ../sass/partials/_settings.sass */
+.settings.open {
+  left: 0;
+}
+/* line 21, ../sass/partials/_settings.sass */
+.settings .settings-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  font-size: 1.6rem;
+  margin: 15px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+/* line 31, ../sass/partials/_settings.sass */
+.settings span {
+  display: block;
+  margin: 5px 12px;
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background-color: rgba(30, 30, 30, 0.63);
+  text-align: center;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+@media (min-width: 768px) {
+  /* line 31, ../sass/partials/_settings.sass */
+  .settings span {
+    background-color: rgba(50, 50, 50, 0.33);
+  }
+}
+/* line 48, ../sass/partials/_settings.sass */
+.settings span:hover {
+  cursor: pointer;
+  background-color: rgba(50, 50, 50, 0.53);
+}
+/* line 52, ../sass/partials/_settings.sass */
+.settings .settings-subtitle {
+  font-size: 13px;
+  font-size: 1.3rem;
+  padding: 0;
+  text-align: left;
+  margin-top: 20px;
+  background-color: rgba(50, 50, 50, 0) !important;
+}
+/* line 59, ../sass/partials/_settings.sass */
+.settings .settings-subtitle:hover {
+  cursor: default;
+  background-color: rgba(50, 50, 50, 0);
+}
+/* line 63, ../sass/partials/_settings.sass */
+.settings .settings-icon {
+  margin: 0;
+  margin-right: 3px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: -40px;
+  height: 40px;
+  width: 37px;
+  text-align: center;
+  background-color: rgba(50, 50, 50, 0.28);
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 42px;
+  line-height: 4.2rem;
+  -webkit-transition: all, 600ms;
+  -moz-transition: all, 600ms;
+  -o-transition: all, 600ms;
+  transition: all, 600ms;
+}
+
+/* line 3, ../sass/_no-js.sass */
+.no-js body {
+  overflow: scroll !important;
+}
+/* line 6, ../sass/_no-js.sass */
+.no-js .slide {
+  opacity: 1 !important;
+  height: 700px !important;
+}
+/* line 10, ../sass/_no-js.sass */
+.no-js .take-a-look,
+.no-js .settings-icon {
+  opacity: 0;
+  position: absolute !important;
+  left: -9999 !important;
+  top: -9999 !important;
+}
+/* line 20, ../sass/_no-js.sass */
+.no-js .slide-1 .hide,
+.no-js .slide-2 .hide,
+.no-js .slide-3 .hide {
+  opacity: 1;
+  display: block !important;
+  position: relative !important;
+  left: auto !important;
+  top: auto !important;
+}
+/* line 27, ../sass/_no-js.sass */
+.no-js .contact {
+  height: 700px;
+}
+
+/* line 19, ../sass/main.sass */
+html {
+  font-size: 62.5%;
+}
+
+/* line 22, ../sass/main.sass */
+body {
+  background: url(../img/background1.jpg) black top center fixed no-repeat;
+  background-size: 150%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 29, ../sass/_mixins.sass */
+::-moz-selection {
+  background: white;
+}
+
+/* line 31, ../sass/_mixins.sass */
+::selection {
+  background: white;
+}
+
+/* line 30, ../sass/main.sass */
+section {
+  overflow: hidden;
+}
+
+/* line 33, ../sass/main.sass */
+.icon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+/* line 38, ../sass/main.sass */
+.icon span {
+  display: block;
+  font-family: "Pacifico", cursive;
+  color: white;
+  font-size: 18px;
+  font-size: 1.8rem;
+  -webkit-transition: all, 400ms;
+  -moz-transition: all, 400ms;
+  -o-transition: all, 400ms;
+  transition: all, 400ms;
+}
+
+/* line 53, ../sass/main.sass */
+.slide {
+  opacity: 0;
+}
+
+/* line 56, ../sass/main.sass */
+.hide {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}

@@ -1,0 +1,76 @@
+.settings
+    position: absolute
+    top: 50px
+    left: -200px
+    width: 200px
+    height: 280px
+    background-color: rgba(50,50,50, 0.93)
+
+    +transition(all, 600ms)
+
+    +breakpoint(sm)
+        background-color: rgba(50,50,50, 0.28)
+        top: 200px
+        height: 360px
+
+
+    &.open
+        left: 0
+
+
+    .settings-title
+        font-family: $sans
+        font-weight: 700
+        +font-size(16)
+        margin: 15px
+        margin-bottom: 20px
+        text-transform: uppercase
+        letter-spacing: 0.2em
+
+
+    span
+        display: block
+        margin: 5px 12px
+        padding: 10px
+        font-family: $sans
+        font-weight: 700
+        letter-spacing: 0.1em
+        text-transform: uppercase
+        background-color: rgba(30,30,30, 0.63)
+
+        +breakpoint(sm)
+            background-color: rgba(50,50,50, 0.33)
+
+
+        text-align: center
+        +font-size(12)
+
+        &:hover
+            cursor: pointer
+            background-color: rgba(50,50,50, 0.53)
+
+    .settings-subtitle
+        +font-size(13)
+        padding: 0
+        text-align: left
+        margin-top: 20px
+        background-color: rgba(50,50,50, 0.0) !important
+
+        &:hover
+            cursor: default
+            background-color: rgba(50,50,50, 0.0)
+
+    .settings-icon
+        margin: 0
+        margin-right: 3px
+        padding: 0
+        position: absolute
+        top: 0
+        right: -40px
+        height: 40px
+        width: 37px
+        text-align: center
+        background-color: rgba(50,50,50, 0.28)
+        +font-size(18)
+        +line-height(42)
+        +transition(all, 600ms)

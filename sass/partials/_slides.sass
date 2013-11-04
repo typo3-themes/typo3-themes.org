@@ -1,0 +1,148 @@
+.home
+    background-color: $salmon
+    background-color: rgba(231, 76 ,60, 0.7)
+
+    &.full-color
+        background-color: $salmon
+
+.slide-1
+    background-color: rgba(26, 188, 156, 0.7)
+    +transition(all, 400ms)
+    
+    &.fade-background
+        background-color: rgba(231, 76 ,60, 1)
+
+    &.full-color
+        background-color: $cyan
+
+.slide-2
+    background-color: rgba(52, 73,94, 0.7)
+    +transition(all, 400ms)
+    
+    &.fade-background
+        background-color: $cyan
+
+    .iphone-2
+        +breakpoint(sm)
+            margin-top: 150px
+
+        +breakpoint(md)
+            margin-top: 60px
+
+    +breakpoint(md)
+
+        .copy
+            margin-top: 120px !important
+
+    &.full-color
+        background-color: $navy
+
+.slide-3
+    background-color: rgba(241, 196, 15, 0.7)
+    +transition(all, 400ms)
+
+    &.fade-background
+        background-color: $navy
+
+    .iphone-3
+        +breakpoint(sm)
+            margin-top: 80px
+
+    +breakpoint(md)
+        .copy
+            margin-top: 120px !important
+
+    &.full-color
+        background-color: $yellow
+
+.contact
+    background-color: rgba(230, 126, 34, 0.7)
+    +transition(all, 400ms)
+
+    &.full-color
+        background-color: $orange
+
+
+.slide
+    
+    p
+        +font-size(16)
+        +line-height(18)
+        text-transform: normal
+        text-align: left
+
+        +breakpoint(sm)
+            +font-size(18)
+            +line-height(22)
+
+
+
+    .copy
+        margin-top: 15px
+
+        +breakpoint(sm)
+            margin-top: 60px
+
+        p
+            margin: 15px 0 10px 0
+            text-transform: none
+            letter-spacing: 0.04em
+
+            +breakpoint(sm)
+                margin: 30px 0
+
+            +breakpoint(lg)
+                margin: 55px 0
+
+.slide-titles
+    padding-left: 15px
+
+    +breakpoint(sm)
+        padding-left: 0
+
+.slide-2-title,
+.slide-3-title
+    margin-top: 50px
+    +font-size(22)
+
+    +breakpoint(sm)
+        margin-top: 0
+        +font-size(32)
+
+.iphone-container
+    margin-top: 15px
+    overflow: hidden
+    max-height: 200px
+
+    +breakpoint(sm)
+        max-height: 1000px
+
+.iphone-1,
+.iphone-2,
+.iphone-3
+    max-width: 100%
+
+.scroll-down
+    +font-size(32)
+    display: block
+
+.slide-3
+    h2,
+    p,
+    .scroll-down
+        color: #333
+
+.slide-2,
+.slide-3
+    
+    .iphone-container
+        max-height: 50%
+        position: absolute
+        bottom: 0
+        left: 0
+
+        +breakpoint(sm)
+            position: relative
+            bottom: auto
+            left: auto
+            max-height: 1000px

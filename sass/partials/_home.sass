@@ -1,0 +1,92 @@
+h1  
+    margin-top: 40px
+    margin-bottom: 40px
+    text-align: center
+    color: #fff
+    font-family: $sans
+    font-weight: 700
+    text-transform: uppercase
+    letter-spacing: 0.1em
+    +font-size(28)
+
+    +breakpoint(sm)
+        margin-top: 60px
+        margin-bottom: 60px
+
+        +font-size(48)
+
+    +breakpoint(md)
+        margin-top: 200px
+        margin-bottom: 80px
+        +font-size(72)
+
+p
+    margin-bottom: 60px
+    padding: 0 15px
+    text-align: center
+    color: #fff
+    font-family: $sans
+    font-weight: 600
+    text-transform: uppercase
+    letter-spacing: 0.05em
+    +font-size(15)
+    +line-height(20)
+
+
+    +breakpoint(sm)
+        padding: 0
+        margin-bottom: 50px
+
+
+        +font-size(17)
+        +line-height(24)
+        
+    +breakpoint(lg)
+        margin-bottom: 100px
+
+
+p span
+    color: #555
+
+.take-a-look
+    cursor: pointer
+    display: block
+    width: 160px
+    margin: 0 auto
+    padding: 8px 16px
+    border: solid 2px #fff
+    text-align: center
+    color: #fff
+    text-transform: uppercase
+    font-family: $sans
+    font-weight: 900 !important
+    letter-spacing: 0.1em
+    +transition(all, 400ms)
+
+    &:hover
+        background-color: rgba(255,255,255,0.25)
+
+    i
+        margin-right: 5px
+
+.home-phone
+    margin-top: 100px
+    
+.home-copy 
+    +transition(position, 700ms)
+
+#big-video-wrap
+    position: fixed
+    height: 100%
+    width: 100%
+    top: 0
+    left: 0
+    opacity: 0
+    overflow: hidden
+
+    &.hide-video
+        opacity: 0 !important
+
+#big-video-vid,
+#big-video-image 
+    position: absolute

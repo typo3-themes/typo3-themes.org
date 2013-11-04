@@ -1,0 +1,72 @@
+$cyan: #1ABC9C
+$salmon: #e74c3c
+$orange: #e67e22
+$yellow: #f1c40f
+$navy: #34495e
+
+$sans: 'Raleway', sans-serif
+$cursive: 'Pacifico', cursive
+
+[class*="entypo-"]:before
+    font-family: 'entypo', sans-serif
+
+i
+    font-style: normal
+
+body,
+button,
+input,
+select,
+textarea
+    text-rendering: optimizeLegibility
+    -webkit-font-smoothing: antialiased
+    color: #fff
+
+p
+    margin-bottom: 30px
+    font-family: $sans
+    +font-size(18)
+    +line-height(24)
+
+    +breakpoint(sm)
+        +font-size(20)
+        +line-height(28)
+
+    +breakpoint(md)
+        +font-size(22)
+        +line-height(32)
+a
+    text-decoration: none
+    color: #fff
+    border-bottom: solid 1px #fAfafa
+
+    &:hover
+        color: #4761e2
+        text-decoration: none
+        @include transition(all, 300ms)
+
+h1,
+h2
+    +font-size(32)
+    font-family: $sans
+    font-weight: 700
+
+h3
+    +font-size(26)
+    font-family: $sans
+
+.slide-titles
+    font-family: $cursive
+    font-weight: 400
+
+b
+    font-weight: 700
+
+ul,
+ol
+    margin-bottom: 20px
+    padding-left: 20px
+    +font-size(16)
+
+    li
+        margin: 5px 0
